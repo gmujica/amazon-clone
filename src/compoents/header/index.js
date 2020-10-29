@@ -13,7 +13,7 @@ function Header() {
             <Link to='/'>
                 <img
                     className="header_logo"
-                    src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
+                    src=""
                     alt="img"
                 />
             </Link>
@@ -39,8 +39,8 @@ function Header() {
                 </div>
                 <Link to='/checkout'>
                     <div className="header_optionBasket">
-                    <ShoppingBasketIcon />
-                    <span className="header_optionLineTwo basket_count">{basket?.length}</span>
+                        <ShoppingBasketIcon />
+                        <span className="header_optionLineTwo basket_count">{basket?.length}</span>
                     </div>
                 </Link>
             </div>
