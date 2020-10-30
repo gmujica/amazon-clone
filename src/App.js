@@ -1,9 +1,9 @@
 import React from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
-import Header from './compoents/header'
-import Home from './compoents/home'
-import Checkout from './compoents/checkout'
+import Header from './Components/Header'
+import Home from './Components/Home'
+import Checkout from './Components/Checkout'
 
 function App() {
   return (
